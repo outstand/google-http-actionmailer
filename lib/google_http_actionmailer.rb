@@ -54,7 +54,7 @@ module GoogleHttpActionmailer
 
       message = service.send_user_message(
         user_id,
-        message_object: message,
+        message,
         **message_options
       )
 
